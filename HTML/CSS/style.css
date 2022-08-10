@@ -268,11 +268,11 @@ header .navbar ul li a:hover{
     top:-1.5rem; left:-2.5rem;
     height:5rem;
     width: 5rem;
-    border-radius: 50%;
+    border-radius: 43%;
     line-height: 5rem;
     text-align: center;
     font-size: 2rem;
-    color:#fff;
+    color:black;
     background:var(--yellow);
 }
 
@@ -372,22 +372,6 @@ header .navbar ul li a:hover{
 .feedback{
     background: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* media queries  */
 

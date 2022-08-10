@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-Page</title>
+    <link rel="stylesheet" href="./CSS/home_page.css">
+</head>
+<body>
+    <div class="main">
+        <div>
+            <img src="./wallpaper.jpg" class="wallpaper">
+        </div>
+
+        <div class="forms">
+            <form id="UserForm">
+
+            <!-- <h1>Login Here</h1> -->
+            <input type="text" id="formData" placeholder="Enter Your Name" class="box" required>
+            <!-- <input type="text" placeholder="Enter Your Name" class="box"> -->
+            <!-- <br> -->
+            <input type="submit" value = "Submit" class="btnn">
+            </form>
+            <p>NOTE :- <br> Click The Submit Button And See <span> My Portfolio </span></p>
+            <h5>Thank You</h5>   
+        </div>
+
+                                              <!-- NAME -->
+
+        <div class="Name">
+            <h3><span class="auto-type-1"></span></h3>
+            <h1>HY <br> I'AM <span class="auto-type"></span></h1>
+            <p class="par">Looking Forward To An Opportunity For Working In A Multinational Company. </p>
+            <h2> Contact <span>Us</span>  :-</h2>
+        </div>
+
+                                         <!-- ICONS -->
+        <div class="icons">
+            <a href="https://m.facebook.com/100004824554325"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="https://www.instagram.com/the_shukla06"><ion-icon name="logo-instagram"></ion-icon></a>
+            <!-- <a href="#"><ion-icon name="logo-twitter"></ion-icon></a> -->
+            <a href="https://github.com/Theshukla06"><ion-icon name="logo-github"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/ankit-shukla-91697b217/"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </div>
+    </div>
+            
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+        var typed = new Typed(".auto-type",{
+            strings: ["Ankit Shukla","Front-End Developer"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+
+        var typed = new Typed(".auto-type-1",{
+        strings:["Welcome TO Ankit Shukla Zone","Thank You For Coming"],
+        typeSpeed: 100,
+        backSpeed: 90,
+        loop: true
+    })
+
+
+document.querySelector("#UserForm").addEventListener("submit", handleSubmit);
+    
+function handleSubmit(event) {
+    event.preventDefault();
+    var username = document.getElementById("formData").value;
+    window.location.href = "./index.html"
+    console.log(username)
+}
+
+
+
+
+    </script>
+</body>
+</html>
+
+    
