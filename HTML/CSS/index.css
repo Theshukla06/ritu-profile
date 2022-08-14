@@ -199,6 +199,9 @@
         
 /* MOBILE */
 @media screen and (max-width: 420px){
+    body{
+        background-image: url(images/background-wallpaper.jpg);
+    }
 
     html{
         font-size: 50%;
@@ -218,10 +221,6 @@
         height: 37rem;
         margin-top: 67rem;
         margin-left: -37rem;
-    }
-    .wallpaper{
-        width: 129%;
-        height: 136%;
     }
     .Name{
         margin-top: 20rem;
