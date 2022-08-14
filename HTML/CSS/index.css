@@ -207,7 +207,7 @@
     .main{
         width: 100vw;
     }
-    .forms .Name .icons{
+    .forms .icons{
         width: 100vw;
     }
     #UserForm{
@@ -222,6 +222,9 @@
     .wallpaper{
         width: 129%;
         height: 136%;
+    }
+    .Name{
+        margin-top: 20rem;
     }
 }
 
