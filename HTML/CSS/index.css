@@ -71,7 +71,6 @@
 
                                             /* FORM BOX */
 .forms{
-    /* position: absolute; */
     margin-top: 9rem;
     padding: 5px;
     width: 290px;
@@ -215,8 +214,13 @@
         width: 100vw;
     }
     .forms{
-        top: 52rem;
-       left: 29px;
+        width: 33rem;
+        height: 37rem;
+        margin-top: 52rem;
+        margin-left: -37rem;
+    }
+    .wallpaper{
+        width: 148%;
     }
 }
 
