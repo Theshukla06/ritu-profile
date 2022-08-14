@@ -372,8 +372,26 @@ header .navbar ul li a:hover{
 .feedback{
     background: none;
 }
+.icons{
+    letter-spacing: 4rem;
+    font-size: 4rem;
+    margin-top: 20px;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color: #fff;
+    transition: 0.3s ease;
+}
 
-/* media queries  */
+.icons ion-icon:hover{
+    color:#00FFFF;
+}
+
+
+/* Media queries  */
 
 @media (max-width:1200px){
 
