@@ -107,6 +107,11 @@ header .user .name{
     color:#fff;
 }
 
+.namee{
+    font-size: 1.2rem;
+    color:#fff;
+}
+
 header .user .post{
     font-size: 2rem;
     color:#eee;
@@ -217,7 +222,7 @@ header .navbar ul li a:hover{
 }
 
 .about .row .counter .box span{
-    font-size: 4rem;
+    font-size: 2rem;
     color:var(--yellow);
 }
 
